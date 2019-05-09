@@ -1,0 +1,56 @@
+# SOCIAL MEDIA:
+
+## Info
+
+The whole dataset is read from csv file
+and stored in a dict.
+To load the specific data you can ```import data```,
+and use the provided "get" passing the desired field name.
+
+Example:
+To get the values for the "Moisture", use:
+```
+data.get("Moisture")
+```
+
+The returned values will be lists of strings.
+You will need to convert them to desired data types (floats or int) as required.
+
+## Assignments
+
+1. Basic plotting.
+   a) Plot the values of the "Moisture" column.
+   b) Sort the sorted list of the "Moisture" values.
+   
+2. What is the mean number of the "Moisture" score?
+   Interpret the result.
+
+3. Take a random sample of 20 "Total.Cup.Points" values and calculate the mean.
+
+   Now, do the same for the sample taken multiple times:
+   1, 3, 5, 10, 30, 50, 100, 300, 500, 1000, 3000, 5000, 10000, 30000, 50000
+
+   Collect the means of each random sample and calculate the total mean of the collected samples' means.
+   Explain the observations.
+
+   If you do it hundreds or thousands of times does the mean tend to any value?
+
+   Plot the results.
+   Put the number of iterations on x-axis, and mean on y-axis.
+
+4. Calculate the median number of:
+   Aroma, Moisture, Color, Acidity, Flavor, Aftertaste, Body.
+
+   Interpret the result, compare median with arithmetic mean (for "Moisture").
+
+5. Calculate the 10th, 25th, 50th, 75th and 90th percentile
+   using "Total.Cup.Points".
+   Interpret the results.
+
+6. Find the mode (most frequent values) of the "Flavor" values?
+   Also, print min, max and the mean.
+
+7. Group the "Total.Cup.Points" in the buckets and
+   plot them. Compare the plots of for different bucket sizes
+   (5, 25, 50)
+
