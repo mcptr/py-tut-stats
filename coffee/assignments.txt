@@ -50,7 +50,5 @@ You will need to convert them to desired data types (floats or int) as required.
 6. Find the mode (most frequent values) of the "Flavor" values?
    Also, print min, max and the mean.
 
-7. Group the "Total.Cup.Points" in the buckets and
-   plot them. Compare the plots of for different bucket sizes
-   (5, 25, 50)
-
+7. Group the "Total.Cup.Points" in the buckets.
+   Plot data for different bucket sizes (5, 25, 50).
